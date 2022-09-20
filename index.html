@@ -1,1394 +1,550 @@
+<html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</head>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
 <body>
-<header>
-    <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center">
-                <h1><strong>Wrestling Stats</strong></h1>
-            </a>
-        </div>
-    </div>
-</header>
-<div class="container m-3">
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="list-group list-group-horizontal" role="tablist">
-                
-                <a class="list-group-item nav-link active" href="#wwe-women" data-bs-toggle="tab">WWE Women</a>
-                
-                <a class="list-group-item nav-link" href="#wwe-men" data-bs-toggle="tab">WWE Men</a>
-                
-                <a class="list-group-item nav-link" href="#aew-women" data-bs-toggle="tab">AEW Women</a>
-                
-                <a class="list-group-item nav-link" href="#aew-men" data-bs-toggle="tab">AEW Men</a>
-                
-                <a class="list-group-item nav-link" href="#peak-elo" data-bs-toggle="tab">Peak Elo</a>
-                
-            </div>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="rounded-3 shadow tab-content">
-                
-                <div class="tab-pane bg-body show active" id="wwe-women">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Rank</th>
-                            <th scope="col">Elo</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Wins</th>
-                            <th scope="col">Losses</th>
-                            <th scope="col">Draws</th>
-                            <th scope="col">Win Ratio</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>1925</td>
-                            <td>Bianca Belair</td>
-                            <td>86</td>
-                            <td>35</td>
-                            <td>9</td>
-                            <td>66.2%</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>1787</td>
-                            <td>Becky Lynch</td>
-                            <td>129</td>
-                            <td>101</td>
-                            <td>11</td>
-                            <td>53.5%</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>1774</td>
-                            <td>Ronda Rousey</td>
-                            <td>37</td>
-                            <td>4</td>
-                            <td>1</td>
-                            <td>88.1%</td>
-                        </tr>
-                        <tr>
-                            <td>3 <span data-toggle="tooltip" title="Previous Rank: #4,  1774 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1774</td>
-                            <td>Sasha Banks</td>
-                            <td>176</td>
-                            <td>119</td>
-                            <td>17</td>
-                            <td>56.4%</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>1751</td>
-                            <td>Nikki Bella</td>
-                            <td>119</td>
-                            <td>107</td>
-                            <td>3</td>
-                            <td>52.0%</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>1738</td>
-                            <td>Io Shirai</td>
-                            <td>44</td>
-                            <td>23</td>
-                            <td>4</td>
-                            <td>62.0%</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>1720</td>
-                            <td>Asuka</td>
-                            <td>140</td>
-                            <td>56</td>
-                            <td>9</td>
-                            <td>68.3%</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>1708</td>
-                            <td>Meiko Satomura</td>
-                            <td>18</td>
-                            <td>2</td>
-                            <td>0</td>
-                            <td>90.0%</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>1697</td>
-                            <td>Alba Fyre</td>
-                            <td>38</td>
-                            <td>13</td>
-                            <td>0</td>
-                            <td>74.5%</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>1687</td>
-                            <td>Charlotte Flair</td>
-                            <td>185</td>
-                            <td>124</td>
-                            <td>11</td>
-                            <td>57.8%</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td>1686</td>
-                            <td>Rhea Ripley</td>
-                            <td>66</td>
-                            <td>44</td>
-                            <td>5</td>
-                            <td>57.4%</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>1680</td>
-                            <td>Kelly Kelly</td>
-                            <td>106</td>
-                            <td>86</td>
-                            <td>4</td>
-                            <td>54.1%</td>
-                        </tr>
-                        <tr>
-                            <td>13</td>
-                            <td>1661</td>
-                            <td>Nixon Newell</td>
-                            <td>19</td>
-                            <td>13</td>
-                            <td>0</td>
-                            <td>59.4%</td>
-                        </tr>
-                        <tr>
-                            <td>14 <span data-toggle="tooltip" title="Previous Rank: #15,  1636 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1658</td>
-                            <td>Liv Morgan</td>
-                            <td>67</td>
-                            <td>89</td>
-                            <td>3</td>
-                            <td>42.1%</td>
-                        </tr>
-                        <tr>
-                            <td>15 <span data-toggle="tooltip" title="Previous Rank: #14,  1640 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1654</td>
-                            <td>Alexa Bliss</td>
-                            <td>86</td>
-                            <td>100</td>
-                            <td>3</td>
-                            <td>45.5%</td>
-                        </tr>
-                        <tr>
-                            <td>16 <span data-toggle="tooltip" title="Previous Rank: #15,  1636 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1636</td>
-                            <td>Ivy Nile</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>81.8%</td>
-                        </tr>
-                        <tr>
-                            <td>17 <span data-toggle="tooltip" title="Previous Rank: #21,  1623 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1634</td>
-                            <td>Mandy Rose</td>
-                            <td>39</td>
-                            <td>68</td>
-                            <td>3</td>
-                            <td>35.5%</td>
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>1631</td>
-                            <td>Lita</td>
-                            <td>77</td>
-                            <td>54</td>
-                            <td>4</td>
-                            <td>57.0%</td>
-                        </tr>
-                        <tr>
-                            <td>19 <span data-toggle="tooltip" title="Previous Rank: #17,  1635 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1630</td>
-                            <td>Raquel Rodriguez</td>
-                            <td>34</td>
-                            <td>27</td>
-                            <td>2</td>
-                            <td>54.0%</td>
-                        </tr>
-                        <tr>
-                            <td>19</td>
-                            <td>1630</td>
-                            <td>Lacey Evans</td>
-                            <td>37</td>
-                            <td>46</td>
-                            <td>4</td>
-                            <td>42.5%</td>
-                        </tr>
-                        <tr>
-                            <td>21 <span data-toggle="tooltip" title="Previous Rank: #20,  1627 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1627</td>
-                            <td>Toni Storm</td>
-                            <td>36</td>
-                            <td>20</td>
-                            <td>0</td>
-                            <td>64.3%</td>
-                        </tr>
-                        <tr>
-                            <td>22</td>
-                            <td>1607</td>
-                            <td>Beth Phoenix</td>
-                            <td>108</td>
-                            <td>83</td>
-                            <td>3</td>
-                            <td>55.7%</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                            <td>1600</td>
-                            <td>Jinny</td>
-                            <td>22</td>
-                            <td>12</td>
-                            <td>0</td>
-                            <td>64.7%</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                            <td>1600</td>
-                            <td>Naomi</td>
-                            <td>160</td>
-                            <td>152</td>
-                            <td>6</td>
-                            <td>50.3%</td>
-                        </tr>
-                        <tr>
-                            <td>25</td>
-                            <td>1599</td>
-                            <td>Roxanne Perez</td>
-                            <td>10</td>
-                            <td>3</td>
-                            <td>0</td>
-                            <td>76.9%</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="tab-pane bg-body show" id="wwe-men">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Rank</th>
-                            <th scope="col">Elo</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Wins</th>
-                            <th scope="col">Losses</th>
-                            <th scope="col">Draws</th>
-                            <th scope="col">Win Ratio</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>2206</td>
-                            <td>Roman Reigns</td>
-                            <td>302</td>
-                            <td>103</td>
-                            <td>26</td>
-                            <td>70.1%</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2120</td>
-                            <td>Brock Lesnar</td>
-                            <td>89</td>
-                            <td>44</td>
-                            <td>5</td>
-                            <td>64.5%</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>2067</td>
-                            <td>Bobby Lashley</td>
-                            <td>199</td>
-                            <td>91</td>
-                            <td>8</td>
-                            <td>66.8%</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>2022</td>
-                            <td>Edge</td>
-                            <td>341</td>
-                            <td>284</td>
-                            <td>43</td>
-                            <td>51.0%</td>
-                        </tr>
-                        <tr>
-                            <td>4 <span data-toggle="tooltip" title="Previous Rank: #5,  2014 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>2022</td>
-                            <td>Drew McIntyre</td>
-                            <td>195</td>
-                            <td>241</td>
-                            <td>20</td>
-                            <td>42.8%</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>1993</td>
-                            <td>John Cena</td>
-                            <td>470</td>
-                            <td>194</td>
-                            <td>31</td>
-                            <td>67.6%</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>1961</td>
-                            <td>Steve Austin</td>
-                            <td>139</td>
-                            <td>75</td>
-                            <td>30</td>
-                            <td>57.0%</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>1904</td>
-                            <td>Goldberg</td>
-                            <td>31</td>
-                            <td>11</td>
-                            <td>4</td>
-                            <td>67.4%</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>1821</td>
-                            <td>Riddle</td>
-                            <td>86</td>
-                            <td>57</td>
-                            <td>6</td>
-                            <td>57.7%</td>
-                        </tr>
-                        <tr>
-                            <td>9 <span data-toggle="tooltip" title="Previous Rank: #12,  1793 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1821</td>
-                            <td>Jimmy Uso</td>
-                            <td>291</td>
-                            <td>225</td>
-                            <td>13</td>
-                            <td>55.0%</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td>1800</td>
-                            <td>Big E</td>
-                            <td>265</td>
-                            <td>178</td>
-                            <td>9</td>
-                            <td>58.6%</td>
-                        </tr>
-                        <tr>
-                            <td>12 <span data-toggle="tooltip" title="Previous Rank: #14,  1783 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1799</td>
-                            <td>AJ Styles</td>
-                            <td>169</td>
-                            <td>123</td>
-                            <td>8</td>
-                            <td>56.3%</td>
-                        </tr>
-                        <tr>
-                            <td>12 <span data-toggle="tooltip" title="Previous Rank: #10,  1817 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1799</td>
-                            <td>Xavier Woods</td>
-                            <td>139</td>
-                            <td>126</td>
-                            <td>7</td>
-                            <td>51.1%</td>
-                        </tr>
-                        <tr>
-                            <td>14 <span data-toggle="tooltip" title="Previous Rank: #13,  1792 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1792</td>
-                            <td>Randy Orton</td>
-                            <td>464</td>
-                            <td>361</td>
-                            <td>55</td>
-                            <td>52.7%</td>
-                        </tr>
-                        <tr>
-                            <td>15 <span data-toggle="tooltip" title="Previous Rank: #16,  1772 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1786</td>
-                            <td>Seth Rollins</td>
-                            <td>281</td>
-                            <td>213</td>
-                            <td>19</td>
-                            <td>54.8%</td>
-                        </tr>
-                        <tr>
-                            <td>17 <span data-toggle="tooltip" title="Previous Rank: #16,  1772 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1772</td>
-                            <td>Killer Kross</td>
-                            <td>27</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>87.1%</td>
-                        </tr>
-                        <tr>
-                            <td>17 <span data-toggle="tooltip" title="Previous Rank: #16,  1772 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1772</td>
-                            <td>Keith Lee</td>
-                            <td>41</td>
-                            <td>27</td>
-                            <td>5</td>
-                            <td>56.2%</td>
-                        </tr>
-                        <tr>
-                            <td>17 <span data-toggle="tooltip" title="Previous Rank: #16,  1772 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1772</td>
-                            <td>Gunther</td>
-                            <td>37</td>
-                            <td>7</td>
-                            <td>1</td>
-                            <td>82.2%</td>
-                        </tr>
-                        <tr>
-                            <td>19 <span data-toggle="tooltip" title="Previous Rank: #23,  1759 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1767</td>
-                            <td>Omos</td>
-                            <td>26</td>
-                            <td>17</td>
-                            <td>0</td>
-                            <td>60.5%</td>
-                        </tr>
-                        <tr>
-                            <td>19 <span data-toggle="tooltip" title="Previous Rank: #21,  1767 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1767</td>
-                            <td>Samoa Joe</td>
-                            <td>64</td>
-                            <td>49</td>
-                            <td>7</td>
-                            <td>53.3%</td>
-                        </tr>
-                        <tr>
-                            <td>21 <span data-toggle="tooltip" title="Previous Rank: #28,  1732 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1765</td>
-                            <td>Rey Mysterio</td>
-                            <td>354</td>
-                            <td>236</td>
-                            <td>20</td>
-                            <td>58.0%</td>
-                        </tr>
-                        <tr>
-                            <td>22 <span data-toggle="tooltip" title="Previous Rank: #19,  1769 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1763</td>
-                            <td>Sheamus</td>
-                            <td>390</td>
-                            <td>285</td>
-                            <td>26</td>
-                            <td>55.6%</td>
-                        </tr>
-                        <tr>
-                            <td>23 <span data-toggle="tooltip" title="Previous Rank: #27,  1737 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1758</td>
-                            <td>Ivar</td>
-                            <td>70</td>
-                            <td>39</td>
-                            <td>3</td>
-                            <td>62.5%</td>
-                        </tr>
-                        <tr>
-                            <td>24</td>
-                            <td>1752</td>
-                            <td>Veer Mahaan</td>
-                            <td>30</td>
-                            <td>7</td>
-                            <td>0</td>
-                            <td>81.1%</td>
-                        </tr>
-                        <tr>
-                            <td>25 <span data-toggle="tooltip" title="Previous Rank: #19,  1769 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1750</td>
-                            <td>Angelo Dawkins</td>
-                            <td>80</td>
-                            <td>72</td>
-                            <td>3</td>
-                            <td>51.6%</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="tab-pane bg-body show" id="aew-women">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Rank</th>
-                            <th scope="col">Elo</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Wins</th>
-                            <th scope="col">Losses</th>
-                            <th scope="col">Draws</th>
-                            <th scope="col">Win Ratio</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>1835</td>
-                            <td>Thunder Rosa</td>
-                            <td>61</td>
-                            <td>10</td>
-                            <td>0</td>
-                            <td>85.9%</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>1824</td>
-                            <td>Jade Cargill</td>
-                            <td>34</td>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>97.1%</td>
-                        </tr>
-                        <tr>
-                            <td>3 <span data-toggle="tooltip" title="Previous Rank: #5,  1765 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1789</td>
-                            <td>Hikaru Shida</td>
-                            <td>60</td>
-                            <td>14</td>
-                            <td>0</td>
-                            <td>81.1%</td>
-                        </tr>
-                        <tr>
-                            <td>3 <span data-toggle="tooltip" title="Previous Rank: #4,  1789 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1789</td>
-                            <td>Tay Conti</td>
-                            <td>54</td>
-                            <td>12</td>
-                            <td>0</td>
-                            <td>81.8%</td>
-                        </tr>
-                        <tr>
-                            <td>5 <span data-toggle="tooltip" title="Previous Rank: #3,  1797 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1786</td>
-                            <td>Ruby Soho</td>
-                            <td>37</td>
-                            <td>5</td>
-                            <td>0</td>
-                            <td>88.1%</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>1775</td>
-                            <td>Anna Jay</td>
-                            <td>48</td>
-                            <td>15</td>
-                            <td>0</td>
-                            <td>76.2%</td>
-                        </tr>
-                        <tr>
-                            <td>7 <span data-toggle="tooltip" title="Previous Rank: #9,  1736 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1762</td>
-                            <td>Dr. Britt Baker DMD</td>
-                            <td>47</td>
-                            <td>25</td>
-                            <td>0</td>
-                            <td>65.3%</td>
-                        </tr>
-                        <tr>
-                            <td>8 <span data-toggle="tooltip" title="Previous Rank: #7,  1747 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1747</td>
-                            <td>Kris Statlander</td>
-                            <td>52</td>
-                            <td>18</td>
-                            <td>0</td>
-                            <td>74.3%</td>
-                        </tr>
-                        <tr>
-                            <td>9 <span data-toggle="tooltip" title="Previous Rank: #8,  1740 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1740</td>
-                            <td>Abadon  </td>
-                            <td>37</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>90.2%</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>1723</td>
-                            <td>Serena Deeb</td>
-                            <td>29</td>
-                            <td>6</td>
-                            <td>0</td>
-                            <td>82.9%</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td>1709</td>
-                            <td>Riho</td>
-                            <td>33</td>
-                            <td>13</td>
-                            <td>0</td>
-                            <td>71.7%</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>1691</td>
-                            <td>Leyla Hirsch</td>
-                            <td>36</td>
-                            <td>15</td>
-                            <td>0</td>
-                            <td>70.6%</td>
-                        </tr>
-                        <tr>
-                            <td>13 <span data-toggle="tooltip" title="Previous Rank: #14,  1675 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1675</td>
-                            <td>Big Swole</td>
-                            <td>33</td>
-                            <td>15</td>
-                            <td>0</td>
-                            <td>68.8%</td>
-                        </tr>
-                        <tr>
-                            <td>14 <span data-toggle="tooltip" title="Previous Rank: #13,  1686 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1667</td>
-                            <td>Nyla Rose</td>
-                            <td>76</td>
-                            <td>35</td>
-                            <td>0</td>
-                            <td>68.5%</td>
-                        </tr>
-                        <tr>
-                            <td>15</td>
-                            <td>1660</td>
-                            <td>Toni Storm</td>
-                            <td>15</td>
-                            <td>3</td>
-                            <td>0</td>
-                            <td>83.3%</td>
-                        </tr>
-                        <tr>
-                            <td>16</td>
-                            <td>1648</td>
-                            <td>Red Velvet</td>
-                            <td>49</td>
-                            <td>26</td>
-                            <td>0</td>
-                            <td>65.3%</td>
-                        </tr>
-                        <tr>
-                            <td>17</td>
-                            <td>1627</td>
-                            <td>Ryo Mizunami</td>
-                            <td>19</td>
-                            <td>6</td>
-                            <td>0</td>
-                            <td>76.0%</td>
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>1623</td>
-                            <td>Penelope Ford</td>
-                            <td>34</td>
-                            <td>21</td>
-                            <td>0</td>
-                            <td>61.8%</td>
-                        </tr>
-                        <tr>
-                            <td>19</td>
-                            <td>1608</td>
-                            <td>Mercedes Martinez</td>
-                            <td>17</td>
-                            <td>5</td>
-                            <td>0</td>
-                            <td>77.3%</td>
-                        </tr>
-                        <tr>
-                            <td>20</td>
-                            <td>1601</td>
-                            <td>Diamante     </td>
-                            <td>42</td>
-                            <td>25</td>
-                            <td>0</td>
-                            <td>62.7%</td>
-                        </tr>
-                        <tr>
-                            <td>21 <span data-toggle="tooltip" title="Previous Rank: #23,  1572 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1595</td>
-                            <td>Julia Hart</td>
-                            <td>22</td>
-                            <td>12</td>
-                            <td>0</td>
-                            <td>64.7%</td>
-                        </tr>
-                        <tr>
-                            <td>22 <span data-toggle="tooltip" title="Previous Rank: #21,  1593 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1593</td>
-                            <td>Brandi Rhodes</td>
-                            <td>15</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>78.9%</td>
-                        </tr>
-                        <tr>
-                            <td>23 <span data-toggle="tooltip" title="Previous Rank: #21,  1593 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1574</td>
-                            <td>Marina Shafir</td>
-                            <td>16</td>
-                            <td>7</td>
-                            <td>0</td>
-                            <td>69.6%</td>
-                        </tr>
-                        <tr>
-                            <td>24 <span data-toggle="tooltip" title="Previous Rank: #29,  1524 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1560</td>
-                            <td>Athena </td>
-                            <td>6</td>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>85.7%</td>
-                        </tr>
-                        <tr>
-                            <td>25 <span data-toggle="tooltip" title="Previous Rank: #24,  1551 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1553</td>
-                            <td>Kiera Hogan</td>
-                            <td>12</td>
-                            <td>9</td>
-                            <td>0</td>
-                            <td>57.1%</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="tab-pane bg-body show" id="aew-men">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Rank</th>
-                            <th scope="col">Elo</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Wins</th>
-                            <th scope="col">Losses</th>
-                            <th scope="col">Draws</th>
-                            <th scope="col">Win Ratio</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>1927</td>
-                            <td>Jon Moxley</td>
-                            <td>83</td>
-                            <td>9</td>
-                            <td>1</td>
-                            <td>89.2%</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>1868</td>
-                            <td>Wardlow</td>
-                            <td>56</td>
-                            <td>11</td>
-                            <td>0</td>
-                            <td>83.6%</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>1834</td>
-                            <td>Scorpio Sky</td>
-                            <td>63</td>
-                            <td>20</td>
-                            <td>0</td>
-                            <td>75.9%</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>1833</td>
-                            <td>Adam Page</td>
-                            <td>54</td>
-                            <td>18</td>
-                            <td>1</td>
-                            <td>74.0%</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>1779</td>
-                            <td>Luchasaurus</td>
-                            <td>69</td>
-                            <td>29</td>
-                            <td>0</td>
-                            <td>70.4%</td>
-                        </tr>
-                        <tr>
-                            <td>6 <span data-toggle="tooltip" title="Previous Rank: #7,  1766 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1773</td>
-                            <td>Chris Jericho</td>
-                            <td>47</td>
-                            <td>18</td>
-                            <td>1</td>
-                            <td>71.2%</td>
-                        </tr>
-                        <tr>
-                            <td>7 <span data-toggle="tooltip" title="Previous Rank: #6,  1769 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1769</td>
-                            <td>CM Punk</td>
-                            <td>19</td>
-                            <td>1</td>
-                            <td>0</td>
-                            <td>95.0%</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>1757</td>
-                            <td>Kenny Omega</td>
-                            <td>51</td>
-                            <td>15</td>
-                            <td>1</td>
-                            <td>76.1%</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>1754</td>
-                            <td>Jungle Boy </td>
-                            <td>81</td>
-                            <td>45</td>
-                            <td>1</td>
-                            <td>63.8%</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>1743</td>
-                            <td>Darby Allin</td>
-                            <td>61</td>
-                            <td>27</td>
-                            <td>1</td>
-                            <td>68.5%</td>
-                        </tr>
-                        <tr>
-                            <td>11 <span data-toggle="tooltip" title="Previous Rank: #17,  1717 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1731</td>
-                            <td>Sammy Guevara</td>
-                            <td>46</td>
-                            <td>31</td>
-                            <td>0</td>
-                            <td>59.7%</td>
-                        </tr>
-                        <tr>
-                            <td>12 <span data-toggle="tooltip" title="Previous Rank: #15,  1719 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1719</td>
-                            <td>Cash Wheeler</td>
-                            <td>45</td>
-                            <td>14</td>
-                            <td>0</td>
-                            <td>76.3%</td>
-                        </tr>
-                        <tr>
-                            <td>13 <span data-toggle="tooltip" title="Previous Rank: #16,  1718 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1718</td>
-                            <td>Lance Archer</td>
-                            <td>53</td>
-                            <td>15</td>
-                            <td>0</td>
-                            <td>77.9%</td>
-                        </tr>
-                        <tr>
-                            <td>14 <span data-toggle="tooltip" title="Previous Rank: #19,  1716 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1716</td>
-                            <td>Cody Rhodes</td>
-                            <td>47</td>
-                            <td>16</td>
-                            <td>3</td>
-                            <td>71.2%</td>
-                        </tr>
-                        <tr>
-                            <td>15 <span data-toggle="tooltip" title="Previous Rank: #11,  1726 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1714</td>
-                            <td>Ricky Starks</td>
-                            <td>52</td>
-                            <td>18</td>
-                            <td>0</td>
-                            <td>74.3%</td>
-                        </tr>
-                        <tr>
-                            <td>16 <span data-toggle="tooltip" title="Previous Rank: #20,  1712 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1712</td>
-                            <td>Matt Jackson</td>
-                            <td>61</td>
-                            <td>28</td>
-                            <td>0</td>
-                            <td>68.5%</td>
-                        </tr>
-                        <tr>
-                            <td>17 <span data-toggle="tooltip" title="Previous Rank: #21,  1705 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1705</td>
-                            <td>Adam Cole</td>
-                            <td>23</td>
-                            <td>8</td>
-                            <td>0</td>
-                            <td>74.2%</td>
-                        </tr>
-                        <tr>
-                            <td>18 <span data-toggle="tooltip" title="Previous Rank: #12,  1725 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1701</td>
-                            <td>Austin Gunn</td>
-                            <td>54</td>
-                            <td>14</td>
-                            <td>0</td>
-                            <td>79.4%</td>
-                        </tr>
-                        <tr>
-                            <td>18 <span data-toggle="tooltip" title="Previous Rank: #13,  1723 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1701</td>
-                            <td>Bryan Danielson</td>
-                            <td>29</td>
-                            <td>4</td>
-                            <td>2</td>
-                            <td>82.9%</td>
-                        </tr>
-                        <tr>
-                            <td>20 <span data-toggle="tooltip" title="Previous Rank: #17,  1717 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1700</td>
-                            <td>Orange Cassidy</td>
-                            <td>63</td>
-                            <td>28</td>
-                            <td>2</td>
-                            <td>67.7%</td>
-                        </tr>
-                        <tr>
-                            <td>21 <span data-toggle="tooltip" title="Previous Rank: #22,  1699 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1699</td>
-                            <td>Malakai Black</td>
-                            <td>20</td>
-                            <td>4</td>
-                            <td>0</td>
-                            <td>83.3%</td>
-                        </tr>
-                        <tr>
-                            <td>22 <span data-toggle="tooltip" title="Previous Rank: #23,  1698 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1698</td>
-                            <td>Ten</td>
-                            <td>73</td>
-                            <td>27</td>
-                            <td>0</td>
-                            <td>73.0%</td>
-                        </tr>
-                        <tr>
-                            <td>22 <span data-toggle="tooltip" title="Previous Rank: #14,  1722 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1698</td>
-                            <td>Colten Gunn</td>
-                            <td>56</td>
-                            <td>13</td>
-                            <td>0</td>
-                            <td>81.2%</td>
-                        </tr>
-                        <tr>
-                            <td>24 <span data-toggle="tooltip" title="Previous Rank: #25,  1694 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1694</td>
-                            <td>Brody King</td>
-                            <td>17</td>
-                            <td>2</td>
-                            <td>0</td>
-                            <td>89.5%</td>
-                        </tr>
-                        <tr>
-                            <td>25 <span data-toggle="tooltip" title="Previous Rank: #26,  1692 Elo (14 days ago)">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
-      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
-  </svg>
-</span></td>
-                            <td>1692</td>
-                            <td>Miro</td>
-                            <td>23</td>
-                            <td>5</td>
-                            <td>0</td>
-                            <td>82.1%</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="tab-pane bg-body show" id="peak-elo">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th scope="col">Rank</th>
-                            <th scope="col">Peak Elo</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Date Achieved</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>2934</td>
-                            <td>Andre The Giant</td>
-                            <td>1984-07-20</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>2472</td>
-                            <td>Hulk Hogan</td>
-                            <td>1988-12-17</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>2326</td>
-                            <td>John Cena</td>
-                            <td>2014-12-14</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>2291</td>
-                            <td>Bob Backlund</td>
-                            <td>1983-07-14</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>2287</td>
-                            <td>Jimmy Snuka</td>
-                            <td>1983-07-08</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>2266</td>
-                            <td>Roman Reigns</td>
-                            <td>2015-03-23</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>2266</td>
-                            <td>Ultimate Warrior</td>
-                            <td>1992-06-29</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>2238</td>
-                            <td>Bruno Sammartino</td>
-                            <td>1981-01-09</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>2237</td>
-                            <td>Roddy Piper</td>
-                            <td>1984-10-06</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>2224</td>
-                            <td>Randy Savage</td>
-                            <td>1989-06-03</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td>2193</td>
-                            <td>Rocky Johnson</td>
-                            <td>1983-05-20</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>2178</td>
-                            <td>Sgt. Slaughter</td>
-                            <td>1984-10-10</td>
-                        </tr>
-                        <tr>
-                            <td>13</td>
-                            <td>2175</td>
-                            <td>Tito Santana</td>
-                            <td>1984-08-30</td>
-                        </tr>
-                        <tr>
-                            <td>14</td>
-                            <td>2173</td>
-                            <td>Triple H</td>
-                            <td>2008-10-05</td>
-                        </tr>
-                        <tr>
-                            <td>15</td>
-                            <td>2168</td>
-                            <td>Pedro Morales</td>
-                            <td>1973-06-12</td>
-                        </tr>
-                        <tr>
-                            <td>16</td>
-                            <td>2162</td>
-                            <td>Don Muraco</td>
-                            <td>1983-12-16</td>
-                        </tr>
-                        <tr>
-                            <td>17</td>
-                            <td>2147</td>
-                            <td>Big John Studd</td>
-                            <td>1984-11-25</td>
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>2145</td>
-                            <td>Brock Lesnar</td>
-                            <td>2022-02-19</td>
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>2145</td>
-                            <td>Tony Atlas</td>
-                            <td>1983-12-17</td>
-                        </tr>
-                        <tr>
-                            <td>20</td>
-                            <td>2141</td>
-                            <td>Shawn Michaels</td>
-                            <td>1996-06-24</td>
-                        </tr>
-                        <tr>
-                            <td>21</td>
-                            <td>2137</td>
-                            <td>Ivan Putski</td>
-                            <td>1982-05-31</td>
-                        </tr>
-                        <tr>
-                            <td>22</td>
-                            <td>2135</td>
-                            <td>Bobby Lashley</td>
-                            <td>2007-06-11</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                            <td>2134</td>
-                            <td>Ryback</td>
-                            <td>2013-04-01</td>
-                        </tr>
-                        <tr>
-                            <td>24</td>
-                            <td>2131</td>
-                            <td>CM Punk</td>
-                            <td>2013-12-30</td>
-                        </tr>
-                        <tr>
-                            <td>25</td>
-                            <td>2128</td>
-                            <td>Larry Zbyszko</td>
-                            <td>1980-06-03</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</div>
+<h1>WWE Women</h1>
+<table>
+  <tr>
+    <th>
+    Rank
+    </th>
+    <th>
+    Name
+    </th>
+    <th>
+    Rating
+    </th>
+  </th>
+
+  <tr>
+    <td>
+    1
+    </td>
+    <td>
+    Bianca Belair
+    </td>
+  <td>
+  1901
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    2
+    </td>
+    <td>
+    Ronda Rousey
+    </td>
+  <td>
+  1804
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    3
+    </td>
+    <td>
+    Becky Lynch
+    </td>
+  <td>
+  1789
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    4
+    </td>
+    <td>
+    Sasha Banks
+    </td>
+  <td>
+  1775
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    5
+    </td>
+    <td>
+    Io Shirai
+    </td>
+  <td>
+  1773
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    6
+    </td>
+    <td>
+    Nikki Bella
+    </td>
+  <td>
+  1752
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    7
+    </td>
+    <td>
+    Meiko Satomura
+    </td>
+  <td>
+  1703
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    8
+    </td>
+    <td>
+    Alba Fyre
+    </td>
+  <td>
+  1698
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    9
+    </td>
+    <td>
+    Bayley
+    </td>
+  <td>
+  1695
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    10
+    </td>
+    <td>
+    Charlotte Flair
+    </td>
+  <td>
+  1687
+  </td>
+  </tr>
+
+</table>
+<h1>WWE Men</h1>
+<table>
+  <tr>
+    <th>
+    Rank
+    </th>
+    <th>
+    Name
+    </th>
+    <th>
+    Rating
+    </th>
+  </th>
+
+  <tr>
+    <td>
+    1
+    </td>
+    <td>
+    Roman Reigns
+    </td>
+  <td>
+  2215
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    2
+    </td>
+    <td>
+    Brock Lesnar
+    </td>
+  <td>
+  2122
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    3
+    </td>
+    <td>
+    Bobby Lashley
+    </td>
+  <td>
+  2054
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    4
+    </td>
+    <td>
+    Edge
+    </td>
+  <td>
+  2032
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    5
+    </td>
+    <td>
+    Drew McIntyre
+    </td>
+  <td>
+  2015
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    6
+    </td>
+    <td>
+    Steve Austin
+    </td>
+  <td>
+  1960
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    7
+    </td>
+    <td>
+    Goldberg
+    </td>
+  <td>
+  1904
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    8
+    </td>
+    <td>
+    Omos
+    </td>
+  <td>
+  1827
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    9
+    </td>
+    <td>
+    Gunther
+    </td>
+  <td>
+  1817
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    10
+    </td>
+    <td>
+    Jimmy Uso
+    </td>
+  <td>
+  1815
+  </td>
+  </tr>
+
+</table>
+<h1>AEW Women</h1>
+<table>
+  <tr>
+    <th>
+    Rank
+    </th>
+    <th>
+    Name
+    </th>
+    <th>
+    Rating
+    </th>
+  </th>
+
+  <tr>
+    <td>
+    1
+    </td>
+    <td>
+    Thunder Rosa
+    </td>
+  <td>
+  1865
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    2
+    </td>
+    <td>
+    Jade Cargill
+    </td>
+  <td>
+  1835
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    3
+    </td>
+    <td>
+    Tay Conti
+    </td>
+  <td>
+  1795
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    4
+    </td>
+    <td>
+    Ruby Soho
+    </td>
+  <td>
+  1795
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    5
+    </td>
+    <td>
+    Anna Jay
+    </td>
+  <td>
+  1782
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    6
+    </td>
+    <td>
+    Hikaru Shida
+    </td>
+  <td>
+  1775
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    7
+    </td>
+    <td>
+    Serena Deeb
+    </td>
+  <td>
+  1764
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    8
+    </td>
+    <td>
+    Dr. Britt Baker DMD
+    </td>
+  <td>
+  1757
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    9
+    </td>
+    <td>
+    Kris Statlander
+    </td>
+  <td>
+  1752
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    10
+    </td>
+    <td>
+    Abadon  
+    </td>
+  <td>
+  1745
+  </td>
+  </tr>
+
+</table>
+<h1>AEW Men</h1>
+<table>
+  <tr>
+    <th>
+    Rank
+    </th>
+    <th>
+    Name
+    </th>
+    <th>
+    Rating
+    </th>
+  </th>
+
+  <tr>
+    <td>
+    1
+    </td>
+    <td>
+    Jon Moxley
+    </td>
+  <td>
+  1932
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    2
+    </td>
+    <td>
+    Wardlow
+    </td>
+  <td>
+  1877
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    3
+    </td>
+    <td>
+    Scorpio Sky
+    </td>
+  <td>
+  1834
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    4
+    </td>
+    <td>
+    Adam Page
+    </td>
+  <td>
+  1813
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    5
+    </td>
+    <td>
+    CM Punk
+    </td>
+  <td>
+  1784
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    6
+    </td>
+    <td>
+    Luchasaurus
+    </td>
+  <td>
+  1783
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    7
+    </td>
+    <td>
+    Chris Jericho
+    </td>
+  <td>
+  1761
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    8
+    </td>
+    <td>
+    Kenny Omega
+    </td>
+  <td>
+  1761
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    9
+    </td>
+    <td>
+    Darby Allin
+    </td>
+  <td>
+  1759
+  </td>
+  </tr>
+
+  <tr>
+    <td>
+    10
+    </td>
+    <td>
+    Jungle Boy 
+    </td>
+  <td>
+  1748
+  </td>
+  </tr>
+
+</table>
 </body>
 </html>
