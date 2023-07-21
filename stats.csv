@@ -1,0 +1,583 @@
+,rank_arrow,rating,name,wins,losses,draws,win_ratio
+0,1,2144,Roman Reigns,308,106,26,70.0%
+1,2,2091,Brock Lesnar,92,47,5,63.9%
+2,3,2007,Bobby Lashley,212,100,10,65.8%
+3,4,2005,Drew McIntyre,210,246,22,43.9%
+4,5,1986,John Cena,471,195,31,67.6%
+5,6,1982,Edge,347,288,43,51.2%
+6,7,1941,Seth Rollins,307,221,19,56.1%
+7,"8 <span data-toggle=""tooltip"" title=""Previous Rank: #9,  1892 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1901,Gunther,56,16,1,76.7%
+8,"9 <span data-toggle=""tooltip"" title=""Previous Rank: #8,  1895 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1895,Omos,37,21,0,63.8%
+9,10,1877,Windham Rotunda,134,92,4,58.3%
+10,11,1874,Adam Scherr,143,72,12,63.0%
+11,12,1847,Kevin Owens,177,173,13,48.8%
+12,13,1826,Jimmy Uso,308,234,13,55.5%
+13,14,1820,Theory,44,58,1,42.7%
+14,"15 <span data-toggle=""tooltip"" title=""Previous Rank: #22,  1756 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1787,Finn Balor,171,97,2,63.3%
+15,"16 <span data-toggle=""tooltip"" title=""Previous Rank: #17,  1768 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1768,Veer Mahaan,38,8,0,82.6%
+16,"16 <span data-toggle=""tooltip"" title=""Previous Rank: #17,  1768 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1768,Xavier Woods,148,137,8,50.5%
+17,"18 <span data-toggle=""tooltip"" title=""Previous Rank: #19,  1764 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1764,Solo Sikoa,37,12,4,69.8%
+18,"19 <span data-toggle=""tooltip"" title=""Previous Rank: #25,  1740 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1759,Damian Priest,77,54,1,58.3%
+19,"20 <span data-toggle=""tooltip"" title=""Previous Rank: #15,  1784 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1756,Ciampa,80,42,2,64.5%
+20,"21 <span data-toggle=""tooltip"" title=""Previous Rank: #23,  1750 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1755,AJ Styles,178,135,8,55.5%
+21,"22 <span data-toggle=""tooltip"" title=""Previous Rank: #23,  1750 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1753,Carmelo Hayes,37,17,0,68.5%
+22,"22 <span data-toggle=""tooltip"" title=""Previous Rank: #16,  1772 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1753,Wes Lee,39,15,1,70.9%
+23,"24 <span data-toggle=""tooltip"" title=""Previous Rank: #20,  1760 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1746,Bron Breakker,35,9,1,77.8%
+24,"25 <span data-toggle=""tooltip"" title=""Previous Rank: #21,  1757 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1742,Killer Kross,34,13,0,72.3%
+25,"26 <span data-toggle=""tooltip"" title=""Previous Rank: #25,  1740 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1732,Riddle,97,70,6,56.1%
+26,"26 <span data-toggle=""tooltip"" title=""Previous Rank: #30,  1715 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1732,Ilja Dragunov,34,11,2,72.3%
+27,"28 <span data-toggle=""tooltip"" title=""Previous Rank: #27,  1730 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1730,Angelo Dawkins,95,87,4,51.1%
+28,"29 <span data-toggle=""tooltip"" title=""Previous Rank: #28,  1725 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1725,Cody Rhodes,264,314,10,44.9%
+29,"29 <span data-toggle=""tooltip"" title=""Previous Rank: #28,  1725 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1725,Montez Ford,91,71,6,54.2%
+30,"31 <span data-toggle=""tooltip"" title=""Previous Rank: #32,  1708 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1711,Wolfgang,39,22,2,61.9%
+31,"32 <span data-toggle=""tooltip"" title=""Previous Rank: #33,  1707 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1707,Booker T,170,153,19,49.7%
+32,"33 <span data-toggle=""tooltip"" title=""Previous Rank: #34,  1704 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1704,Rey Mysterio,365,253,20,57.2%
+33,"33 <span data-toggle=""tooltip"" title=""Previous Rank: #36,  1694 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1704,Kit Wilson,30,18,0,62.5%
+34,"35 <span data-toggle=""tooltip"" title=""Previous Rank: #31,  1713 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1698,Sami Zayn,122,171,7,40.7%
+35,"36 <span data-toggle=""tooltip"" title=""Previous Rank: #35,  1697 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1697,Jey Uso,299,258,11,52.6%
+36,"37 <span data-toggle=""tooltip"" title=""Previous Rank: #39,  1677 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1691,JONAH,32,22,1,58.2%
+37,"38 <span data-toggle=""tooltip"" title=""Previous Rank: #40,  1676 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1686,Elton Prince,30,19,0,61.2%
+38,"38 <span data-toggle=""tooltip"" title=""Previous Rank: #43,  1651 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1686,Dominik Mysterio,52,47,0,52.5%
+39,"40 <span data-toggle=""tooltip"" title=""Previous Rank: #38,  1679 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1679,Kofi Kingston,436,382,20,52.0%
+40,41,1660,Doc Gallows,108,126,8,44.6%
+41,"41 <span data-toggle=""tooltip"" title=""Previous Rank: #37,  1680 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1660,Sheamus,401,304,27,54.8%
+42,"43 <span data-toggle=""tooltip"" title=""Previous Rank: #44,  1648 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1653,Ivar,77,51,3,58.8%
+43,"44 <span data-toggle=""tooltip"" title=""Previous Rank: #46,  1647 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1649,Mark Coffey,34,20,2,60.7%
+44,"45 <span data-toggle=""tooltip"" title=""Previous Rank: #47,  1644 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1644,Cameron Grimes,45,33,2,56.2%
+45,"46 <span data-toggle=""tooltip"" title=""Previous Rank: #42,  1654 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1640,Shinsuke Nakamura,104,101,6,49.3%
+46,"47 <span data-toggle=""tooltip"" title=""Previous Rank: #44,  1648 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1631,Jordan Devlin,51,28,3,62.2%
+47,48,1627,Ricochet,109,101,9,49.8%
+48,49,1623,Karl Anderson,69,90,6,41.8%
+49,"50 <span data-toggle=""tooltip"" title=""Previous Rank: #58,  1582 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1612,Santos Escobar,33,31,0,51.6%
+50,50,1612,Butch   ,73,47,3,59.3%
+51,"52 <span data-toggle=""tooltip"" title=""Previous Rank: #54,  1590 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1608,Apollo Crews,111,128,3,45.9%
+52,"53 <span data-toggle=""tooltip"" title=""Previous Rank: #52,  1603 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1603,Tyler Bate,61,36,1,62.2%
+53,"54 <span data-toggle=""tooltip"" title=""Previous Rank: #63,  1571 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1598,Channing Lauren,19,10,0,65.5%
+54,"55 <span data-toggle=""tooltip"" title=""Previous Rank: #51,  1613 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1595,Angel   ,59,61,2,48.4%
+55,"56 <span data-toggle=""tooltip"" title=""Previous Rank: #57,  1583 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1587,Madcap Moss,27,44,1,37.5%
+56,"57 <span data-toggle=""tooltip"" title=""Previous Rank: #55,  1586 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1586,Samuel Shaw,25,21,2,52.1%
+57,"57 <span data-toggle=""tooltip"" title=""Previous Rank: #55,  1586 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1586,Rick Boogs,13,12,1,50.0%
+58,"59 <span data-toggle=""tooltip"" title=""Previous Rank: #53,  1591 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1576,Charlie Dempsey,17,9,0,65.4%
+59,59,1576,Cedric Alexander,141,126,1,52.6%
+60,"61 <span data-toggle=""tooltip"" title=""Previous Rank: #63,  1571 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1571,AJ Francis,11,12,0,47.8%
+61,"61 <span data-toggle=""tooltip"" title=""Previous Rank: #63,  1571 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1571,Mustafa Ali,97,110,6,45.5%
+62,"63 <span data-toggle=""tooltip"" title=""Previous Rank: #66,  1566 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1566,R-Truth,244,262,8,47.5%
+63,"64 <span data-toggle=""tooltip"" title=""Previous Rank: #67,  1565 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1565,Joe Gacy,23,17,1,56.1%
+64,"65 <span data-toggle=""tooltip"" title=""Previous Rank: #68,  1564 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1564,Johnny Gargano,66,62,2,50.8%
+65,"65 <span data-toggle=""tooltip"" title=""Previous Rank: #60,  1574 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1564,Ridge Holland,26,33,0,44.1%
+66,"67 <span data-toggle=""tooltip"" title=""Previous Rank: #70,  1561 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1561,Noam Dar,42,65,2,38.5%
+67,"68 <span data-toggle=""tooltip"" title=""Previous Rank: #77,  1540 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1559,Nathan Frazer,19,19,1,48.7%
+68,"68 <span data-toggle=""tooltip"" title=""Previous Rank: #71,  1559 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1559,Julius Creed,25,19,1,55.6%
+69,"70 <span data-toggle=""tooltip"" title=""Previous Rank: #68,  1564 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1558,Otis,68,92,4,41.5%
+70,"71 <span data-toggle=""tooltip"" title=""Previous Rank: #60,  1574 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1554,Karl Fredericks,11,3,0,78.6%
+71,"72 <span data-toggle=""tooltip"" title=""Previous Rank: #63,  1571 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1551,A-Kid,30,29,1,50.0%
+72,"73 <span data-toggle=""tooltip"" title=""Previous Rank: #75,  1548 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1548,Tony D'Angelo,17,15,0,53.1%
+73,73,1548,Fabian Aichner,44,46,3,47.3%
+74,"75 <span data-toggle=""tooltip"" title=""Previous Rank: #76,  1545 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1545,Jinder Mahal,94,210,2,30.7%
+75,"76 <span data-toggle=""tooltip"" title=""Previous Rank: #77,  1540 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1540,Gibson  ,42,33,4,53.2%
+76,"76 <span data-toggle=""tooltip"" title=""Previous Rank: #82,  1535 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1540,Erik,76,57,3,55.9%
+77,"79 <span data-toggle=""tooltip"" title=""Previous Rank: #80,  1538 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1538,Sanga,14,6,0,70.0%
+78,"79 <span data-toggle=""tooltip"" title=""Previous Rank: #80,  1538 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1538,LA Knight,20,29,0,40.8%
+79,"79 <span data-toggle=""tooltip"" title=""Previous Rank: #80,  1538 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1538,Dolph Ziggler,338,460,25,41.1%
+80,"81 <span data-toggle=""tooltip"" title=""Previous Rank: #73,  1549 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1535,Edris Enofe,22,22,0,50.0%
+81,"82 <span data-toggle=""tooltip"" title=""Previous Rank: #83,  1534 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1534,Bad Bunny,2,1,0,66.7%
+82,"83 <span data-toggle=""tooltip"" title=""Previous Rank: #72,  1552 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1531,Joe Coffey,31,24,2,54.4%
+83,"83 <span data-toggle=""tooltip"" title=""Previous Rank: #85,  1531 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1531,Commander Azeez,9,12,0,42.9%
+84,"85 <span data-toggle=""tooltip"" title=""Previous Rank: #86,  1529 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1529,Mace,13,21,0,38.2%
+85,"86 <span data-toggle=""tooltip"" title=""Previous Rank: #87,  1526 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1526,Odyssey Jones,16,11,0,59.3%
+86,"87 <span data-toggle=""tooltip"" title=""Previous Rank: #88,  1523 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1523,Mansoor,42,26,0,61.8%
+87,"88 <span data-toggle=""tooltip"" title=""Previous Rank: #89,  1522 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1522,Joaquin Wilde,26,36,0,41.9%
+88,"88 <span data-toggle=""tooltip"" title=""Previous Rank: #89,  1522 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1522,Pat McAfee,3,3,0,50.0%
+89,"90 <span data-toggle=""tooltip"" title=""Previous Rank: #91,  1521 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1521,Bodhi Hayward,8,6,0,57.1%
+90,"91 <span data-toggle=""tooltip"" title=""Previous Rank: #93,  1505 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1517,Duke Hudson,20,25,1,43.5%
+91,92,1512,Ezekiel,65,110,1,36.9%
+92,"93 <span data-toggle=""tooltip"" title=""Previous Rank: #104,  1493 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1510,Brooks Jensen,15,17,0,46.9%
+93,"94 <span data-toggle=""tooltip"" title=""Previous Rank: #96,  1502 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1502,Ludwig Kaiser,39,44,3,45.3%
+94,"95 <span data-toggle=""tooltip"" title=""Previous Rank: #97,  1499 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1499,Happy Corbin,142,174,6,44.1%
+95,"96 <span data-toggle=""tooltip"" title=""Previous Rank: #98,  1497 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1497,T-BAR,43,63,2,39.8%
+96,"96 <span data-toggle=""tooltip"" title=""Previous Rank: #98,  1497 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1497,Marcus Kross,0,1,0,0.0%
+97,"99 <span data-toggle=""tooltip"" title=""Previous Rank: #101,  1494 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1494,Breaux Keller,0,1,0,0.0%
+98,99,1494,Pain              ,1,1,0,50.0%
+99,"99 <span data-toggle=""tooltip"" title=""Previous Rank: #101,  1494 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1494,Lucky Ali,0,2,0,0.0%
+100,"101 <span data-toggle=""tooltip"" title=""Previous Rank: #104,  1493 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1493,Xyon Quinn,21,22,0,48.8%
+101,"101 <span data-toggle=""tooltip"" title=""Previous Rank: #104,  1493 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1493,Shelton Benjamin,224,292,6,42.9%
+102,"103 <span data-toggle=""tooltip"" title=""Previous Rank: #94,  1503 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1492,Josh Briggs,20,21,0,48.8%
+103,"104 <span data-toggle=""tooltip"" title=""Previous Rank: #94,  1503 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1491,Grayson Waller,22,33,0,40.0%
+104,"105 <span data-toggle=""tooltip"" title=""Previous Rank: #106,  1488 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1488,Boa,10,10,1,47.6%
+105,"107 <span data-toggle=""tooltip"" title=""Previous Rank: #108,  1485 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1485,Joey Ace,0,1,0,0.0%
+106,"107 <span data-toggle=""tooltip"" title=""Previous Rank: #108,  1485 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1485,Frankie Thomas,0,1,0,0.0%
+107,"107 <span data-toggle=""tooltip"" title=""Previous Rank: #108,  1485 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1485,King Khash,0,1,0,0.0%
+108,"107 <span data-toggle=""tooltip"" title=""Previous Rank: #108,  1485 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1485,Spencer Slade,0,1,0,0.0%
+109,"110 <span data-toggle=""tooltip"" title=""Previous Rank: #111,  1484 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1484,Ariel Dominguez,0,2,0,0.0%
+110,"111 <span data-toggle=""tooltip"" title=""Previous Rank: #112,  1483 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1483,Luka Daniels,0,2,0,0.0%
+111,"112 <span data-toggle=""tooltip"" title=""Previous Rank: #113,  1477 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1477,Sal Rinauro,0,2,0,0.0%
+112,"113 <span data-toggle=""tooltip"" title=""Previous Rank: #114,  1475 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1475,Drake  ,38,36,4,48.7%
+113,"114 <span data-toggle=""tooltip"" title=""Previous Rank: #115,  1472 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1472,Ren Jones,0,2,0,0.0%
+114,"115 <span data-toggle=""tooltip"" title=""Previous Rank: #117,  1470 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1470,Chico Adams,0,2,0,0.0%
+115,"115 <span data-toggle=""tooltip"" title=""Previous Rank: #123,  1450 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1470,Oliver Carter,17,28,0,37.8%
+116,"117 <span data-toggle=""tooltip"" title=""Previous Rank: #101,  1494 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1465,Reggie  ,18,19,1,47.4%
+117,118,1460,Roderick Strong,52,67,3,42.6%
+118,118,1460,Michael Stevens,0,4,0,0.0%
+119,120,1459,Mambo Italiano,0,3,0,0.0%
+120,120,1459,Brutus Creed,21,21,2,47.7%
+121,122,1457,Tehuti Miles,19,37,0,33.9%
+122,"123 <span data-toggle=""tooltip"" title=""Previous Rank: #116,  1471 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1453,Humberto,50,82,3,37.0%
+123,"124 <span data-toggle=""tooltip"" title=""Previous Rank: #123,  1450 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1450,Adrian Alanis,0,4,0,0.0%
+124,125,1449,Trick Williams,14,17,0,45.2%
+125,"126 <span data-toggle=""tooltip"" title=""Previous Rank: #127,  1434 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1447,Andre Chase,20,32,0,38.5%
+126,"127 <span data-toggle=""tooltip"" title=""Previous Rank: #126,  1442 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1442,Blanco Loco,0,5,0,0.0%
+127,"128 <span data-toggle=""tooltip"" title=""Previous Rank: #129,  1427 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1427,Shanky,2,16,0,11.1%
+128,"129 <span data-toggle=""tooltip"" title=""Previous Rank: #130,  1416 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1416,Von Wagner,18,25,1,40.9%
+129,"130 <span data-toggle=""tooltip"" title=""Previous Rank: #131,  1413 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1413,Brandon Scott,0,7,0,0.0%
+130,"131 <span data-toggle=""tooltip"" title=""Previous Rank: #132,  1405 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1405,Damon Kemp,7,19,1,25.9%
+131,"132 <span data-toggle=""tooltip"" title=""Previous Rank: #128,  1430 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1401,Malik Blade,20,32,0,38.5%
+132,133,1389,Cruz Del Toro,30,57,0,34.5%
+133,"134 <span data-toggle=""tooltip"" title=""Previous Rank: #136,  1370 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1379,Dante Chen,17,23,1,41.5%
+134,"135 <span data-toggle=""tooltip"" title=""Previous Rank: #139,  1347 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""green"" class=""bi bi-caret-up-fill"" viewBox=""0 0 16 16"">
+      <path d=""m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z""/>
+  </svg>
+</span>",1375,The Miz,317,463,23,39.5%
+135,135,1375,Ru Feng,0,10,0,0.0%
+136,137,1369,Guru Raaj,3,14,1,16.7%
+137,"138 <span data-toggle=""tooltip"" title=""Previous Rank: #134,  1380 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1362,Ikemen Jiro,17,27,0,38.6%
+138,"139 <span data-toggle=""tooltip"" title=""Previous Rank: #138,  1352 Elo (14 days ago)"">
+  <svg xmlns=""http://www.w3.org/2000/svg"" width=""16"" height=""16"" fill=""red"" class=""bi bi-caret-down-fill"" viewBox=""0 0 16 16"">
+    <path d=""M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z""/>
+  </svg>
+</span>",1347,Chad Gable,105,145,1,41.8%
+139,140,1328,Drew Gulak,47,142,0,24.9%
+140,141,1289,Javier Bernal,8,31,0,20.5%
+141,142,1272,Akira Tozawa,78,135,2,36.3%
